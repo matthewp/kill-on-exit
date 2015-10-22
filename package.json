@@ -1,0 +1,26 @@
+{
+  "name": "infanticide",
+  "version": "1.0.0",
+  "description": "Ensure child processes are closed when the parent closes",
+  "main": "child.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewp/infanticide.git"
+  },
+  "keywords": [
+    "child_process",
+    "spawn"
+  ],
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/infanticide/issues"
+  },
+  "homepage": "https://github.com/matthewp/infanticide",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
