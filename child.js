@@ -14,5 +14,6 @@ function infanticide(child, signal, parent) {
     parent.removeListener("uncaughtException", onUncaughtException);
     console.error("Uncaught Exception\n", err.stack);
     child.kill(signal);
+    process.exit(1);
   });
 }
