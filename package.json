@@ -1,6 +1,6 @@
 {
-  "name": "infanticide",
-  "version": "1.1.0",
+  "name": "kill-on-exit",
+  "version": "1.2.0",
   "description": "Ensure child processes are closed when the parent closes",
   "main": "child.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewp/infanticide.git"
+    "url": "https://github.com/matthewp/kill-on-exit.git"
   },
   "keywords": [
     "child_process",
@@ -17,9 +17,9 @@
   "author": "Matthew Phillips",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/matthewp/infanticide/issues"
+    "url": "https://github.com/matthewp/kill-on-exit/issues"
   },
-  "homepage": "https://github.com/matthewp/infanticide",
+  "homepage": "https://github.com/matthewp/kill-on-exit",
   "devDependencies": {
     "tape": "^4.2.2"
   }

@@ -1,18 +1,18 @@
-# infanticide
+# kill-on-exit
 
 Makes sure child processes are cleaned up (killed) when the parent process exits.
 
 ## Install
 
 ```shell
-npm install infanticide --save
+npm install kill-on-exit --save
 ```
 
 ## Use
 
 ```js
 var spawn = require("child_process").spawn;
-var killOnExit = require("infanticide");
+var killOnExit = require("kill-on-exit");
 
 var child = spawn("long-process");
 killOnExit(child);
